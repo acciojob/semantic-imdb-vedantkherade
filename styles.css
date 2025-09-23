@@ -1,2 +1,55 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial;
+      margin: 0;
+    }
+header {
+      background: gray;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+nav {
+      background: lightcoral;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      display: flex;
+      margin: 20px;
+    }
+    article {
+      flex: 3;
+      margin-right: 20px;
+    }
+    aside {
+      flex: 1;
+      background: lightgray;
+      padding: 15px;
+
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: black;
+      color: white;
+      margin-top: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid gray;
+      padding-bottom: 5px;
+    }
